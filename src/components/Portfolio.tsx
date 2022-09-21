@@ -1,4 +1,5 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 const arrayDestruct = require('../assets/portfolio/arrayDestruct.jpg')
 const installNode = require('../assets/portfolio/installNode.jpg')
 const navbar = require('../assets/portfolio/navbar.jpg')
@@ -42,7 +43,7 @@ const Portfolio = () => {
   ]
 
   return (
-    <div id='portfolio'
+    <Element name='Portfolio'
       className=' bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'
     >
       <div
@@ -87,7 +88,7 @@ const Portfolio = () => {
         </div>
 
       </div>
-    </div>
+    </Element>
   )
 }
 

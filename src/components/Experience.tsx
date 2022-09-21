@@ -1,4 +1,5 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 
 const html = require('../assets/html.png')
 const css = require('../assets/css.png')
@@ -70,7 +71,7 @@ const Experience = () => {
   ]
 
   return (
-    <div id='experience'
+    <Element name='Experience'
       className=' bg-gradient-to-b from-gray-800 to-black w-full h-screen'
     >
       <div
@@ -100,7 +101,7 @@ const Experience = () => {
 
         </div>
       </div>
-    </div>
+    </Element>
   )
 }
 

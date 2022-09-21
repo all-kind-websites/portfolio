@@ -1,5 +1,5 @@
 import React from 'react';
-import { About, Home, NavBar, Portfolio, SocialLinks } from './components';
+import { About, Experience, Home, NavBar, Portfolio, SocialLinks } from './components';
 import './index.css';
 
 
@@ -10,6 +10,7 @@ function App() {
       <Home />
       <About />
       <Portfolio />
+      <Experience />
       <SocialLinks />
     </div>
   );

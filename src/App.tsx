@@ -1,5 +1,5 @@
 import React from 'react';
-import { About, Experience, Home, NavBar, Portfolio, SocialLinks } from './components';
+import { About, Contact, Experience, Home, NavBar, Portfolio, SocialLinks } from './components';
 import './index.css';
 
 
@@ -11,6 +11,7 @@ function App() {
       <About />
       <Portfolio />
       <Experience />
+      <Contact />
       <SocialLinks />
     </div>
   );

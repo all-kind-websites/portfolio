@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, NavBar, SocialLinks } from './components';
+import { About, Home, NavBar, SocialLinks } from './components';
 import './index.css';
 
 
@@ -8,6 +8,7 @@ function App() {
     <div>
       <NavBar />
       <Home />
+      <About />
       <SocialLinks />
     </div>
   );

@@ -28,13 +28,13 @@ const Portfolio = () => {
           </p>
         </div>
         <div
-          className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'
+          className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 md:w-2/3 md:mx-auto lg:w-full'
         >
           {
             projects.map(({ id, src }) => (
               <div
                 key={id}
-                className=' shadow-md shadow-gray-600 rounded-lg w-7/8'
+                className=' shadow-md shadow-gray-600 rounded-lg w-7/8 lg:w-60 md:w-48'
               >
                 <img src={src} alt=""
                   className=' rounded-md duration-200 hover:scale-105'

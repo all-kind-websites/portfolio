@@ -15,14 +15,24 @@ const Home = () => {
           className='flex flex-col justify-center h-full'
         >
           <h2
-            className='text-4xl sm:text-xl font-bold text-white md:mt-10'
+            className='text-2xl sm:text-xl font-bold text-white mt-14 md:mt-10'
           >
-            I am a React (Native) developer
+            {` < React (Native) developer />`}
           </h2>
           <p
-            className='text-gray-500 py-4 max-w-md '
+            className='text-gray-400 pt-4 max-w-md text-lg '
           >
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusantium nam veritatis tempore fugit dolorum ab, excepturi neque molestiae reprehenderit? Ducimus obcaecati ab quaerat accusamus officia quisquam qui suscipit explicabo.
+            I learned programming, in order to get a creative, ethical, challenging and versatile job.
+          </p>
+          <p
+            className='text-gray-400 max-w-md text-lg '
+          >
+            There are more than 6.000 hours of coding and many certificates in my toolkit.
+          </p>
+          <p
+            className='text-gray-400 max-w-md text-lg '
+          >
+            And I feel pretty confident when incorporating new APIs!
           </p>
           <div>
             <Link

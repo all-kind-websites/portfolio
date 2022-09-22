@@ -9,7 +9,7 @@ const graphql = require('../assets/graphql.png')
 const node = require('../assets/node.png')
 const reactImg = require('../assets/react.png')
 const tailwind = require('../assets/tailwind.png')
-const github = require('../assets/github.png')
+// const github = require('../assets/github.png')
 
 const Experience = () => {
 

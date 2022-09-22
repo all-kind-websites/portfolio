@@ -11,7 +11,7 @@ const Contact = () => {
         className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'
       >
         <div
-          className='pb-8'
+          className='pb-8 mt-16'
         >
           <p className=' text-4xl font-bold inline border-b-4 border-gray-500' >Contact</p>
           <p className=' py-6' >Sumbit form to get in touch</p>
@@ -23,17 +23,17 @@ const Contact = () => {
           <form
             action="https://getform.io/f/ee3cc0fe-31cf-4e60-bd34-ead4f891facf"
             method='POST'
-            className=' flex flex-col w-full md:w-1/2'
+            className=' flex flex-col w-3/4 md:w-1/2'
           >
-            <input type="text" name='' placeholder='Enter your name'
+            <input type="text" name='' placeholder='name'
               className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
             />
-            <input type="email" name='' placeholder='Enter your email'
+            <input type="email" name='' placeholder='email'
               className='p-2 my-4 bg-transparent border-2 rounded-md text-white focus:outline-none'
             />
             <textarea name="message" rows={10}
               className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
-              placeholder='Enter your message'
+              placeholder='message'
             >
             </textarea>
             <button

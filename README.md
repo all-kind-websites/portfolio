@@ -2,9 +2,10 @@
 
 - For the form we use [getform](https://app.getform.io/forms/47129)
 - Project in [netlify](https://github.com/all-kind-websites/portfolio)
-
-TODO:
-
+- Website is published in [Netlify](https://fotios.netlify.app/)
+  TODO:
+- hide the sidebar
+- make averall adjustments
 - Add your projects etc.
 - Add AOS animations
 - Add an Archive section where you keep all your learning history.

@@ -15,7 +15,7 @@ const Home = () => {
           className='flex flex-col justify-center h-full'
         >
           <h2
-            className='text-4xl sm:text-xl font-bold text-white md:mt-10 mt-16'
+            className='text-4xl sm:text-xl font-bold text-white md:mt-10'
           >
             I am a React (Native) developer
           </h2>
@@ -38,11 +38,11 @@ const Home = () => {
             </Link>
           </div>
         </div >
-        <div className=' ' >
+        <div className='shadow-lg shadow-cyan-500 rounded-3xl h-48  w-40 mx-auto mb-10' >
           <img
             src={heroImg}
             alt="my profile"
-            className='rounded-3xl mx-auto w-2/5 mb-20 '
+            className='rounded-3xl  '
           />
         </div>
       </div>

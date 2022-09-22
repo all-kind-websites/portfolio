@@ -16,7 +16,7 @@ const NavBar = () => {
     <div
       className={`
       flex justify-between items-center 
-      w-full h-20 px-4 
+      w-full h-16 px-4 
       fixed 
       text-white 
       bg-black `}>

@@ -3,6 +3,8 @@
 - For the form we use [getform](https://app.getform.io/forms/47129)
 - Project in [netlify](https://github.com/all-kind-websites/portfolio)
 - Website is published in [Netlify](https://fotios.netlify.app/)
+
+- Project in [Netlify](https://app.netlify.com/sites/fotios/settings/deploys)
   TODO:
 - hide the sidebar
 - make averall adjustments

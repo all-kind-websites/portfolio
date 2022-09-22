@@ -1,34 +1,52 @@
-const arrayDestruct = require("../assets/portfolio/arrayDestruct.jpg");
-const installNode = require("../assets/portfolio/installNode.jpg");
-const navbar = require("../assets/portfolio/navbar.jpg");
-const reactParallax = require("../assets/portfolio/reactParallax.jpg");
-const reactWeather = require("../assets/portfolio/reactWeather.jpg");
-const usestate = require("../assets/portfolio/usestate.jpg");
+const entoutonika = require("../assets/portfolio/entoutonika.jpeg");
+const hagio_geo = require("../assets/portfolio/hagio_geo.png");
+const moshify = require("../assets/portfolio/moshify.png");
+const tap_me = require("../assets/portfolio/tap_me.png");
+const slack_clone = require("../assets/portfolio/slack_clone.png");
+const hooks_news = require("../assets/portfolio/hooks-news.png");
 
 const portfolios = [
   {
     id: 0,
-    src: arrayDestruct,
-  },
-  {
-    id: 1,
-    src: reactParallax,
-  },
-  {
-    id: 2,
-    src: navbar,
-  },
-  {
-    id: 3,
-    src: usestate,
+    src: entoutonika,
+    type: "App",
+    videoLink: "https://youtu.be/IpYJjVw6wjU",
+    projectLink: "https://footios.github.io/etn-promote/",
   },
   {
     id: 4,
-    src: installNode,
+    src: hagio_geo,
+    type: "App",
+    videoLink: "#",
+    projectLink: "https://app-info.github.io/hagio-geo-info/",
   },
   {
-    id: 5,
-    src: reactWeather,
+    id: 1,
+    src: tap_me,
+    type: "App",
+    videoLink: "#",
+    projectLink: "3",
+  },
+  {
+    id: 2,
+    src: moshify,
+    type: "Website",
+    videoLink: "#",
+    projectLink: "https://moshified-footios76.netlify.app/#",
+  },
+  {
+    id: 3,
+    src: slack_clone,
+    type: "Website",
+    videoLink: "#",
+    projectLink: "https://slack-clone-9a8d0.web.app/register",
+  },
+  {
+    id: 4,
+    src: hooks_news,
+    type: "Website",
+    videoLink: "#",
+    projectLink: "https://hooks-news-app-d9481.web.app/login",
   },
 ];
 

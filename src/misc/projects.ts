@@ -17,7 +17,7 @@ const portfolios = [
     id: 4,
     src: hagio_geo,
     type: "App",
-    videoLink: "#",
+    videoLink: "https://www.youtube.com/watch?v=yqikND3lSss&ab_channel=fotios",
     projectLink: "https://app-info.github.io/hagio-geo-info/",
   },
   {
@@ -31,21 +31,21 @@ const portfolios = [
     id: 2,
     src: moshify,
     type: "Website",
-    videoLink: "#",
+    videoLink: "https://studio.youtube.com/video/XYTwoqyE32U/edit",
     projectLink: "https://moshified-footios76.netlify.app/#",
   },
   {
     id: 3,
     src: slack_clone,
     type: "Website",
-    videoLink: "#",
+    videoLink: "https://www.youtube.com/watch?v=p0Dn9Kwkzcw&ab_channel=fotios",
     projectLink: "https://slack-clone-9a8d0.web.app/register",
   },
   {
     id: 4,
     src: hooks_news,
     type: "Website",
-    videoLink: "#",
+    videoLink: "https://www.youtube.com/watch?v=RM7wrLvKu0Y&ab_channel=fotios",
     projectLink: "https://hooks-news-app-d9481.web.app/login",
   },
 ];

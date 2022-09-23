@@ -31,10 +31,10 @@ const Portfolio = () => {
           className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 md:w-2/3 md:mx-auto lg:w-full'
         >
           {
-            projects.map(({ id, src, type, videoLink, projectLink }) => (
+            projects.map(({ id, src, type, videoLink, original, projectLink, style }) => (
               <div
                 key={id}
-                className=' shadow-md shadow-gray-600 rounded-lg w-7/8 lg:w-60 md:w-48'
+                className=' relative shadow-md shadow-gray-600 rounded-lg w-7/8 lg:w-60 md:w-48'
               >
                 <img src={src} alt=""
                   className=' rounded-md duration-200 hover:scale-105'
@@ -59,6 +59,15 @@ const Portfolio = () => {
                     {type}
                   </a>
                 </div>
+                {original
+                  ?
+                  <div
+                    className={`text-xs font-bold rounded-lg p-2 absolute top-0 right-0 px-3  ${style}`}
+                  >
+                    <span>R</span>
+                  </div>
+                  : null
+                }
               </div>
             ))
           }

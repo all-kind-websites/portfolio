@@ -23,9 +23,9 @@ const portfolios = [
   {
     id: 1,
     src: tap_me,
-    type: "App",
-    videoLink: "#",
-    projectLink: "3",
+    type: "Code",
+    videoLink: "https://www.youtube.com/watch?v=HxdLrMhQHcs&ab_channel=fotios",
+    projectLink: "https://github.com/react-native-games/tabMe",
   },
   {
     id: 2,

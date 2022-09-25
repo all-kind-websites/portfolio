@@ -40,13 +40,13 @@ const Portfolio = () => {
                   className=' rounded-md duration-200 hover:scale-105'
                 />
                 <div
-                  className='flex items-center justify-center '
+                  className='flex items-center justify-between '
                 >
                   <a
                     href={videoLink}
                     target='_blank'
                     rel="noreferrer"
-                    className=' w-1/2 px-2 py-3 m-4 duration-200 hover:scale-150'
+                    className='  mx-auto py-3 m-4 duration-200 hover:scale-150'
                   >
                     Video
                   </a>
@@ -54,7 +54,7 @@ const Portfolio = () => {
                     href={projectLink}
                     target='_blank'
                     rel="noreferrer"
-                    className=' w-1/2 px-2 py-3 m-4 duration-200 hover:scale-150'
+                    className=' mx-auto py-3 m-4 duration-200 hover:scale-150'
                   >
                     {type}
                   </a>
@@ -62,9 +62,9 @@ const Portfolio = () => {
                 {original
                   ?
                   <div
-                    className={`text-xs font-bold rounded-lg p-2 absolute top-0 right-0 px-3  ${style}`}
+                    className={`text-xs font-bold rounded-lg p-2 absolute top-0 right-0 px-3  duration-200 hover:scale-105 pointer-events-auto ${style}`}
                   >
-                    <span>R</span>
+                    R
                   </div>
                   : null
                 }

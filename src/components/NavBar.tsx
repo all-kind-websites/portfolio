@@ -19,7 +19,7 @@ const NavBar = () => {
       w-full h-16 px-4 
       fixed 
       text-white 
-      bg-black `}>
+      bg-black z-10`}>
       <div>
         <h1 className='text-5xl ml-2 font-signature' >Fotios</h1>
       </div>

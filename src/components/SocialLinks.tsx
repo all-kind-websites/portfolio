@@ -1,4 +1,3 @@
-import React from 'react'
 import { useSocialLinks } from '../hooks';
 
 const SocialLinks = () => {

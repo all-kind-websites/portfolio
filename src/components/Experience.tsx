@@ -1,11 +1,9 @@
-import React from 'react'
-import { Element } from 'react-scroll'
 import { techs } from '../misc'
 
 const Experience = () => {
 
   return (
-    <Element name='Experience'
+    <section
       className=' bg-gradient-to-b from-gray-800 to-black w-full h-screen'
     >
       <div
@@ -23,7 +21,7 @@ const Experience = () => {
         >
           {
             techs.map(({ id, src, style, title }) => (
-              <div key={id} className={`shadow-md hover:scale-105 duration-200 py-2 rounded-lg w-20 h-20 ${style}`} >
+              <div key={id} className={`shadow-md hover:scale-105 duration-200 py-2 rounded-lg w-20 h-20 cursor-pointer ${style}`} >
                 <img src={src} alt="" className=' w-10 mx-auto' />
                 <p className=' mt-2 text-sm ' >{title}</p>
               </div>
@@ -32,7 +30,7 @@ const Experience = () => {
 
         </div>
       </div>
-    </Element>
+    </section>
   )
 }
 

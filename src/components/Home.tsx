@@ -1,11 +1,10 @@
-import React from 'react'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
-import { Element, Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 const heroImg = require('../assets/heroImage.jpeg');
 
 const Home = () => {
   return (
-    <Element name='Home'
+    <section
       className='h-screen w-full bg-gradient-to-b from-black via-sky-800 to-gray-800 '
     >
       <div
@@ -36,9 +35,7 @@ const Home = () => {
           </p>
           <div>
             <Link
-              to='Portfolio'
-              smooth
-              duration={500}
+              to='portfolio'
               className='group text-white cursor-pointer w-fit px-6 py-3 my-2 flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md '
             >
               Portfolio
@@ -56,7 +53,7 @@ const Home = () => {
           />
         </div>
       </div>
-    </Element>
+    </section>
   )
 }
 

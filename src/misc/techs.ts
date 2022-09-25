@@ -51,46 +51,45 @@ const techs = [
   },
   {
     id: 6,
+    src: redux,
+    title: "Redux",
+    style: "shadow-purple-500",
+  },
+  {
+    id: 7,
     src: reanimated2,
     title: "Reanimated",
     style: "shadow-blue-500",
   },
   {
-    id: 7,
+    id: 8,
     src: react_navigation,
     title: "React Nav.",
     style: "shadow-purple-500",
   },
   {
-    id: 8,
+    id: 9,
     src: react_router,
     title: "React Rout.",
     style: "shadow-red-800",
   },
   {
-    id: 9,
+    id: 10,
     src: react_testing_library,
     title: "R. Testing L.",
     style: "shadow-red-800",
   },
   {
-    id: 10,
+    id: 11,
     src: firebase,
     title: "Firebase",
     style: "shadow-yellow-500",
   },
   {
-    id: 11,
+    id: 12,
     src: git,
     title: "Git",
     style: "shadow-orange-800",
-  },
-
-  {
-    id: 12,
-    src: redux,
-    title: "Redux",
-    style: "shadow-purple-500",
   },
 ];
 

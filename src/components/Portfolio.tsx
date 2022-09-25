@@ -1,12 +1,10 @@
-import React from 'react'
-import { Element } from 'react-scroll'
 import { projects } from '../misc'
 
 
 const Portfolio = () => {
 
   return (
-    <Element name='Portfolio'
+    <section
       className=' bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'
     >
       <div
@@ -74,7 +72,7 @@ const Portfolio = () => {
         </div>
 
       </div>
-    </Element>
+    </section>
   )
 }
 

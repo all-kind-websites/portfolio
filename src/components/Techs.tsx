@@ -1,6 +1,6 @@
 import { techs } from '../misc'
 
-const Experience = () => {
+const Techs = () => {
 
   return (
     <section
@@ -13,7 +13,7 @@ const Experience = () => {
           <p
             className=' text-4xl font-bold border-b-4 border-gray-500'
           >
-            Experience
+            Techs
           </p>
         </div>
         <div
@@ -34,4 +34,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Techs

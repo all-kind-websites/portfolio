@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsFillPersonLinesFill, BsStackOverflow } from 'react-icons/bs';
 
 const useSocialLinks = () => {
   const links = [
@@ -28,13 +28,22 @@ const useSocialLinks = () => {
       id: 2,
       child: (
         <>
+          <BsStackOverflow size={30} />Stack...
+        </>
+      ),
+      href: "https://stackoverflow.com/users/5986141/fotios-tsakiris",
+    },
+    {
+      id: 3,
+      child: (
+        <>
           <HiOutlineMail size={30} /> Mail
         </>
       ),
       href: "mailto:footios76@gmail.com",
     },
     {
-      id: 3,
+      id: 4,
       child: (
         <>
           <BsFillPersonLinesFill size={30} /> Resume

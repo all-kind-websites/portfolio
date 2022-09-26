@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 
-import { About, Contact, Techs, Home, NavBar, Portfolio, Sidebar, SocialLinks } from './components';
+import { NavBar, Sidebar, SocialLinks } from './components';
+import { About, Contact, Techs, Home, Portfolio, } from './pages';
 import './index.css';
 
 

@@ -14,7 +14,7 @@ function Sidebar() {
     { id: 4, link: 'contact', icon: <AiOutlineContacts /> },
   ]
   return (
-    <div className='sm:flex md:hidden bottom-[5%] left-0 fixed z-20 ' >
+    <div className='sm:flex md:hidden bottom-[2%] left-0 fixed z-20 ' >
       <div className='flex justify-between items-center 
           w-42 h-42 px-4 ml-[-110px] hover:ml-[-10px] 
           rounded-md hover:rounded-xl duration-300 bg-gradient-to-r from-black to-bg-cyan-700 cursor-pointer '>

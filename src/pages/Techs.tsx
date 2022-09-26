@@ -18,7 +18,7 @@ const Techs = () => {
           </p>
         </div>
         <div
-          className=' w-full grid grid-cols-3 sm:grid-cols-4 gap-6 text-center py-8 px-12 sm:px-0'
+          className='w-full grid grid-cols-3 sm:grid-cols-4 gap-6 text-center py-8 px-12 sm:px-0'
         >
           {
             techs.map(({ id, link, src, style, title }) => (

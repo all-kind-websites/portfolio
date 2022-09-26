@@ -12,7 +12,7 @@ const SocialLinks = () => {
             <li key={id} className={`
             flex justify-between items-center 
             w-32 h-12 px-4 mr-[-78px] hover:ml-[-70px] 
-            rounded-md hover:rounded-xl duration-300 bg-gradient-to-l from-black to-bg-cyan-700 mb-1  
+            rounded-md hover:rounded-xl duration-300 bg-gradient-to-l from-black to-cyan-900 mb-1  
             ${style}`}  >
               <a
                 href={href}

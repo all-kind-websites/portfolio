@@ -17,7 +17,7 @@ function Sidebar() {
     <div className='sm:flex md:hidden bottom-[2%] left-0 fixed z-20 ' >
       <div className='flex justify-between items-center 
           w-42 h-42 px-4 ml-[-110px] hover:ml-[-10px] 
-          rounded-md hover:rounded-xl duration-300 bg-gradient-to-r from-black to-bg-cyan-700 cursor-pointer '>
+          rounded-md hover:rounded-xl duration-300 bg-gradient-to-r from-black pt-3 pr-[-10px] to-cyan-900 cursor-pointer '>
 
         <ul className='flex flex-col justify-between items-center w-full '  >
           {links.map(({ id, icon, link, path }) =>

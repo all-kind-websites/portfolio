@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { projects } from '../misc'
 
 
@@ -29,14 +30,16 @@ const Portfolio = () => {
           className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 md:px-12 mx-10 sm:px-0 md:w-2/3  md:mx-auto lg:w-full'
         >
           {
-            projects.map(({ id, src, type, videoLink, original, projectLink, style }) => (
+            projects.map(({ id, link, src, type, videoLink, original, projectLink, style }) => (
               <div
                 key={id}
                 className=' relative shadow-md shadow-gray-600 rounded-lg md:w-38 lg:w-52'
               >
-                <img src={src} alt=""
-                  className=' rounded-md duration-200 hover:scale-105'
-                />
+                <Link to={link} >
+                  <img src={src} alt=""
+                    className=' rounded-md duration-200 hover:scale-105'
+                  />
+                </Link>
                 <div
                   className='flex items-center justify-between '
                 >

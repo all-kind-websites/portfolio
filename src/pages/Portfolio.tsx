@@ -5,7 +5,7 @@ const Portfolio = () => {
 
   return (
     <section
-      className=' bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'
+      className=' bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen overflow-auto'
     >
       <div
         className=' max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'
@@ -14,7 +14,7 @@ const Portfolio = () => {
           className=' pb-8 mt-16'
         >
           <p
-            className=' text-4xl font-bold inline border-b-4 border-gray-500 '
+            className=' text-4xl font-bold inline border-b-4 border-gray-500 pt-20'
           >
             Portfolio
           </p>
@@ -26,13 +26,13 @@ const Portfolio = () => {
           </p>
         </div>
         <div
-          className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 md:w-2/3 md:mx-auto lg:w-full'
+          className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 md:px-12 mx-10 sm:px-0 md:w-2/3  md:mx-auto lg:w-full'
         >
           {
             projects.map(({ id, src, type, videoLink, original, projectLink, style }) => (
               <div
                 key={id}
-                className=' relative shadow-md shadow-gray-600 rounded-lg w-7/8 lg:w-60 md:w-48'
+                className=' relative shadow-md shadow-gray-600 rounded-lg md:w-38 lg:w-52'
               >
                 <img src={src} alt=""
                   className=' rounded-md duration-200 hover:scale-105'

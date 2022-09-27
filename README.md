@@ -5,8 +5,10 @@
 - Website is published in [Netlify](https://fotios.netlify.app/)
 
 - Project in [Netlify](https://app.netlify.com/sites/fotios/settings/deploys)
+
   TODO:
-- hide the sidebar
+
+- Add site icon and name it tab
 - make averall adjustments
 - Add your projects etc.
 - Add AOS animations

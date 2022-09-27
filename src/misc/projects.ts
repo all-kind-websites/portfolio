@@ -1,7 +1,8 @@
 const entoutonika = require("../assets/portfolio/entoutonika.jpeg");
 const hagio_geo = require("../assets/portfolio/hagio_geo.png");
-const moshify = require("../assets/portfolio/moshify.png");
 const tap_me = require("../assets/portfolio/tap_me.png");
+const portfolio = require("../assets/portfolio/portfolio.png");
+const moshify = require("../assets/portfolio/moshify.png");
 const slack_clone = require("../assets/portfolio/slack_clone.png");
 const hooks_news = require("../assets/portfolio/hooks-news.png");
 
@@ -16,7 +17,7 @@ const portfolios = [
     style: "bg-yellow-500 text-red-800 shadow-md shadow-yellow-500 ",
   },
   {
-    id: 4,
+    id: 1,
     src: hagio_geo,
     type: "App",
     videoLink: "https://www.youtube.com/watch?v=yqikND3lSss&ab_channel=fotios",
@@ -25,7 +26,7 @@ const portfolios = [
     style: "bg-blue-200 text-yellow-600 shadow-md shadow-yellow-600 ",
   },
   {
-    id: 1,
+    id: 2,
     src: tap_me,
     type: "Code",
     videoLink: "https://www.youtube.com/watch?v=HxdLrMhQHcs&ab_channel=fotios",
@@ -34,7 +35,16 @@ const portfolios = [
     style: "bg-yellow-200 text-indigo-500 shadow-md shadow-yellow-200 ",
   },
   {
-    id: 2,
+    id: 3,
+    src: portfolio,
+    type: "Code",
+    videoLink: "#",
+    projectLink: "https://github.com/all-kind-websites/portfolio",
+    original: true,
+    style: "bg-cyan-700 text-black shadow-md shadow-cyan-200 ",
+  },
+  {
+    id: 4,
     src: moshify,
     type: "Website",
     videoLink: "https://studio.youtube.com/video/XYTwoqyE32U/edit",
@@ -42,7 +52,7 @@ const portfolios = [
     original: false,
   },
   {
-    id: 3,
+    id: 5,
     src: slack_clone,
     type: "Website",
     videoLink: "https://www.youtube.com/watch?v=p0Dn9Kwkzcw&ab_channel=fotios",
@@ -50,7 +60,7 @@ const portfolios = [
     original: false,
   },
   {
-    id: 4,
+    id: 6,
     src: hooks_news,
     type: "Website",
     videoLink: "https://www.youtube.com/watch?v=RM7wrLvKu0Y&ab_channel=fotios",

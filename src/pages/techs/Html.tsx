@@ -1,6 +1,6 @@
 import { TutorialsCmp } from '../../components'
 
-const Portfolio = () => {
+const Html = () => {
 
   const tutorials = [
     {
@@ -30,10 +30,11 @@ const Portfolio = () => {
   return (
     <TutorialsCmp
       name='HTML'
+      color='orange'
       tutorials={tutorials}
       src={require('../../assets/techs/html.png')}
     />
   )
 }
 
-export default Portfolio
+export default Html

@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 
 import { NavBar, Sidebar, SocialLinks } from './components';
-import { About, Contact, Techs, Home, Portfolio, Html, } from './pages';
+import { About, Contact, Techs, Home, Portfolio, Html, CSS, } from './pages';
 import './index.css';
 
 
@@ -16,6 +16,7 @@ function App() {
         <Route path='portfolio' element={<Portfolio />} />
         <Route path='techs' element={<Techs />} />
         <Route path='techs/html' element={<Html />} />
+        <Route path='techs/css' element={<CSS />} />
         <Route path='contact' element={<Contact />} />
       </Routes>
       <SocialLinks />

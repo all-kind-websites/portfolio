@@ -1,12 +1,12 @@
-const entoutonika = require("../assets/portfolio/entoutonika.jpeg");
-const hagio_geo = require("../assets/portfolio/hagio_geo.png");
-const tap_me = require("../assets/portfolio/tap_me.png");
-const portfolio = require("../assets/portfolio/portfolio.png");
-const moshify = require("../assets/portfolio/moshify.png");
-const slack_clone = require("../assets/portfolio/slack_clone.png");
-const hooks_news = require("../assets/portfolio/hooks-news.png");
+const entoutonika = require("../assets/projects/entoutonika.jpeg");
+const hagio_geo = require("../assets/projects/hagio_geo.png");
+const tap_me = require("../assets/projects/tap_me.png");
+const portfolio = require("../assets/projects/portfolio.png");
+const moshify = require("../assets/projects/moshify.png");
+const slack_clone = require("../assets/projects/slack_clone.png");
+const hooks_news = require("../assets/projects/hooks-news.png");
 
-const portfolios = [
+const projects = [
   {
     id: 0,
     src: entoutonika,
@@ -76,4 +76,4 @@ const portfolios = [
   },
 ];
 
-export default portfolios;
+export default projects;

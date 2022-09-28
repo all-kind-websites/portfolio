@@ -8,8 +8,7 @@
 
   TODO:
 
-- Add site icon and name it tab
-- make averall adjustments
+- add page not found
 - Add animations
 - Add an Archive section where you keep all your learning history.
 - Add a Tutorials section where you list all the tutorials you've finished.

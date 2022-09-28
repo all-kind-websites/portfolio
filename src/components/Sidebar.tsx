@@ -9,7 +9,7 @@ function Sidebar() {
   const links = [
     { id: 0, link: 'home', path: '/', icon: <BiHome /> },
     { id: 1, link: 'about', icon: <SiAboutdotme /> },
-    { id: 2, link: 'portfolio', icon: <CgScreen /> },
+    { id: 2, link: 'projects', icon: <CgScreen /> },
     { id: 3, link: 'techs', icon: <DiTechcrunch /> },
     { id: 4, link: 'contact', icon: <AiOutlineContacts /> },
   ]

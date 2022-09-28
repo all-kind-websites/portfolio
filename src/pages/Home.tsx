@@ -35,10 +35,10 @@ const Home = () => {
           </p>
           <div>
             <Link
-              to='portfolio'
+              to='projects'
               className='group text-white cursor-pointer w-fit px-6 py-3 my-2 flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md '
             >
-              Portfolio
+              Projects
               <span className='group-hover:translate-x-2 duration-300' >
                 <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
               </span>

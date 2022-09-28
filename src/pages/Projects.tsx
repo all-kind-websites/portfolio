@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { projects } from '../misc'
 
 
-const Portfolio = () => {
+const Projects = () => {
 
   return (
     <section
@@ -17,7 +17,7 @@ const Portfolio = () => {
           <p
             className=' text-4xl font-bold inline border-b-4 border-gray-500 pt-20'
           >
-            Portfolio
+            Projects
           </p>
 
           <p
@@ -79,4 +79,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Projects

@@ -10,8 +10,7 @@
 
 - Add site icon and name it tab
 - make averall adjustments
-- Add your projects etc.
-- Add AOS animations
+- Add animations
 - Add an Archive section where you keep all your learning history.
 - Add a Tutorials section where you list all the tutorials you've finished.
 - Add a Blog section where you re-publish Blogs you found interesting.

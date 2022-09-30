@@ -17,7 +17,9 @@ const NavBar = () => {
       text-white 
       bg-gradient-to-r from-black via-black to-cyan-900 z-10`}>
       <div>
-        <h1 className='text-5xl ml-2 font-signature' >Fotios</h1>
+        <Link to='/' >
+          <h1 className='text-5xl ml-2 font-signature' >Fotios</h1>
+        </Link>
       </div>
       <ul className="hidden md:flex">
         {links.map(({ id, name, path }) =>

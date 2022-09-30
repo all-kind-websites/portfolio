@@ -2,9 +2,13 @@ import { TbFileCertificate } from 'react-icons/tb'
 import { Tutorials } from '../types/types'
 
 function TutorialsList({ tutorials, color }: { tutorials: Tutorials[], color: string }) {
+
+  /* Leave the color: text-${color}-400
+  in the ul className, so it casscades to courseName ans summary,
+  because if we set it there it doesn't work.  */
   return (
     <ul
-      className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 grid-flow-dense sm:px-0 md:mx-auto'
+      className={`grid sm:grid-cols-2 md:grid-cols-3 gap-8 grid-flow-dense sm:px-0 md:mx-auto text-${color}-400`}
     >
       {
         tutorials.map(({ id, certificate, courseName, school, src, summary }) => (
@@ -41,12 +45,12 @@ function TutorialsList({ tutorials, color }: { tutorials: Tutorials[], color: st
                 href={src}
                 target='_blank'
                 rel="noreferrer"
-                className={`flex justify-center font-bold text-${color}-400 py-2 mx-2 duration-200 hover:scale-105  `}
+                className={`flex justify-center font-bold py-2 mx-2 duration-200 hover:scale-105  `}
               >
                 {courseName}
               </a>
               <div className='border-b-4 border-gray-700 w-1/2 self-center' />
-              <p className={`p-2 text-${color}-400`} >
+              <p className={`p-2`} >
                 {summary}
               </p>
             </div>

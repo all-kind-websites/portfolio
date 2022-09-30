@@ -12,18 +12,12 @@ const Projects = () => {
         className=' max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'
       >
         <div
-          className=' pb-8 mt-16'
+          className=' pb-8 mt-56'
         >
           <p
             className=' text-4xl font-bold inline border-b-4 border-gray-500 pt-20'
           >
             Projects
-          </p>
-
-          <p
-            className=' py-6'
-          >
-            Check out some of my work
           </p>
         </div>
         <div
@@ -35,11 +29,19 @@ const Projects = () => {
                 key={id}
                 className=' relative shadow-md shadow-gray-600 rounded-lg md:w-38 lg:w-52'
               >
-                <Link to={link} >
-                  <img src={src} alt=""
-                    className=' rounded-md duration-200 hover:scale-105'
+                {link
+                  ?
+                  <Link to={link} >
+                    <img src={src} alt="project"
+                      className=' rounded-md duration-200 hover:scale-105'
+                    />
+                  </Link>
+                  :
+                  <img src={src} alt="project"
+                    className=' rounded-md'
                   />
-                </Link>
+                }
+
                 <div
                   className='flex items-center justify-between '
                 >
@@ -73,7 +75,6 @@ const Projects = () => {
             ))
           }
         </div>
-
       </div>
     </section>
   )

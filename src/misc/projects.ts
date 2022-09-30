@@ -20,7 +20,8 @@ const projects = [
   {
     id: 1,
     src: hagio_geo,
-    link: "hagio_geo",
+    link: "",
+    // link: "hagio_geo",
     type: "App",
     videoLink: "https://www.youtube.com/watch?v=yqikND3lSss&ab_channel=fotios",
     projectLink: "https://app-info.github.io/hagio-geo-info/",
@@ -30,7 +31,8 @@ const projects = [
   {
     id: 2,
     src: tap_me,
-    link: "tap_me",
+    link: "",
+    // link: "tap_me",
     type: "Code",
     videoLink: "https://www.youtube.com/watch?v=HxdLrMhQHcs&ab_channel=fotios",
     projectLink: "https://github.com/react-native-games/tabMe",
@@ -40,7 +42,8 @@ const projects = [
   {
     id: 3,
     src: portfolio,
-    link: "portfolio",
+    link: "",
+    // link: "portfolio",
     type: "Code",
     videoLink: "#",
     projectLink: "https://github.com/all-kind-websites/portfolio",
@@ -50,7 +53,8 @@ const projects = [
   {
     id: 4,
     src: moshify,
-    link: "moshify",
+    link: "",
+    // link: "moshify",
     type: "Website",
     videoLink: "https://studio.youtube.com/video/XYTwoqyE32U/edit",
     projectLink: "https://moshified-footios76.netlify.app/#",
@@ -59,7 +63,8 @@ const projects = [
   {
     id: 5,
     src: slack_clone,
-    link: "entoutonika",
+    link: "",
+    // link: "slack_clone",
     type: "Website",
     videoLink: "https://www.youtube.com/watch?v=p0Dn9Kwkzcw&ab_channel=fotios",
     projectLink: "https://slack-clone-9a8d0.web.app/register",
@@ -68,7 +73,8 @@ const projects = [
   {
     id: 6,
     src: hooks_news,
-    link: "hooks_news",
+    link: "",
+    // link: "hooks_news",
     type: "Website",
     videoLink: "https://www.youtube.com/watch?v=RM7wrLvKu0Y&ab_channel=fotios",
     projectLink: "https://hooks-news-app-d9481.web.app/login",

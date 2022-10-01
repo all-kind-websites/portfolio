@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 
 import { NavBar, Sidebar, SocialLinks } from './components';
-import { About, Contact, Techs, Home, Projects, Html, CSS, EnToutoNika, } from './pages';
+import { About, Contact, Techs, Home, Projects, Html, CSS, EnToutoNika, PageNotFound, } from './pages';
 import './index.css';
 
 
@@ -22,6 +22,8 @@ function App() {
         <Route path='techs/css' element={<CSS />} />
 
         <Route path='contact' element={<Contact />} />
+        <Route path='*' element={<PageNotFound />} />
+
       </Routes>
       <SocialLinks />
     </div>

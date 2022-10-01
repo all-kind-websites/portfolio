@@ -22,10 +22,21 @@ const Techs = () => {
         >
           {
             techs.map(({ id, link, src, style, title }) => (
-              <Link to={link} key={id} className={` place-self-center shadow-md hover:scale-105 duration-200 py-2 rounded-lg w-20 h-20 cursor-pointer ${style}`} >
-                <img src={src} alt="" className=' w-10 mx-auto' />
-                <p className=' mt-2 text-sm ' >{title}</p>
-              </Link >
+              <>
+                {
+                  link
+                    ?
+                    <Link to={link} key={id} className={` place-self-center shadow-md hover:scale-105 duration-200 py-2 rounded-lg w-20 h-20 cursor-pointer ${style}`} >
+                      <img src={src} alt="" className=' w-10 mx-auto' />
+                      <p className=' mt-2 text-sm ' >{title}</p>
+                    </Link >
+                    :
+                    <div className={` place-self-center shadow-md py-2 rounded-lg w-20 h-20  ${style}`} >
+                      <img src={src} alt="" className=' w-10 mx-auto' />
+                      <p className=' mt-2 text-sm '>{title}</p>
+                    </div>
+                }
+              </>
             ))
           }
 

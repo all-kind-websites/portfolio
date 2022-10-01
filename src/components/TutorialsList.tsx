@@ -1,14 +1,19 @@
+import { FC } from 'react'
 import { TbFileCertificate } from 'react-icons/tb'
 import { Tutorials } from '../types/types'
 
-function TutorialsList({ tutorials, color }: { tutorials: Tutorials[], color: string }) {
-
-  /* Leave the color: text-${color}-400
-  in the ul className, so it casscades to courseName ans summary,
-  because if we set it there it doesn't work.  */
+interface Props {
+  tutorials: Tutorials[],
+  color: string
+  text: string
+}
+const TutorialsList: FC<Props> = ({ tutorials, color, text }) => {
+  let grid = 'md:grid-cols-3'
+  if (tutorials.length % 2 === 0)
+    grid = 'md:grid-cols-2'
   return (
     <ul
-      className={`grid sm:grid-cols-2 md:grid-cols-3 gap-8 grid-flow-dense sm:px-0 md:mx-auto text-${color}-400`}
+      className={`grid sm:grid-cols-2 ${grid} gap-8 grid-flow-dense sm:px-0 md:mx-auto ${text}`}
     >
       {
         tutorials.map(({ id, certificate, courseName, school, src, summary }) => (
@@ -18,10 +23,10 @@ function TutorialsList({ tutorials, color }: { tutorials: Tutorials[], color: st
           >
 
             <div
-              className={`flex items-center justify-between text-blue-400 border-b-2 border-b-${color}-800 `}
+              className={`flex items-center justify-between border-b-2 border-b-${color}-800 `}
             >
               <h4
-                className={`text-xl font-bold mx-auto py-3 m-4 ${color}-500 cursor-none`}
+                className={`text-xl font-bold mx-auto py-3 m-4 text-${color}-500 cursor-none`}
               >
                 {school}
               </h4>
@@ -34,22 +39,22 @@ function TutorialsList({ tutorials, color }: { tutorials: Tutorials[], color: st
                       target='_blank'
                       rel="noreferrer"
                     >
-                      <TbFileCertificate size={30} />
+                      <TbFileCertificate size={30} className='text-blue-400 ' />
                     </a>
                   </div>
                   : null
               }
             </div>
-            <div className='flex flex-col' >
+            <div className='flex flex-col ' >
               <a
                 href={src}
                 target='_blank'
                 rel="noreferrer"
-                className={`flex justify-center font-bold py-2 mx-2 duration-200 hover:scale-105  `}
+                className={`flex justify-center text-blue-400  font-bold py-2 mx-2 duration-200 hover:scale-105  `}
               >
                 {courseName}
               </a>
-              <div className='border-b-4 border-gray-700 w-1/2 self-center' />
+              <div className='border-b-4  border-gray-700 w-1/2 self-center' />
               <p className={`p-2`} >
                 {summary}
               </p>

@@ -1,3 +1,4 @@
+import { str } from "../misc";
 import {
   cssTutorials,
   htmlTutorials,
@@ -20,7 +21,7 @@ const getTutorialData = (id: string | undefined) => {
   let text = "text-blue-400";
 
   switch (id) {
-    case "html":
+    case str.html:
       tutorials = [...htmlTutorials];
       name = "HTML";
       src = require("../assets/techs/html.png");
@@ -28,15 +29,7 @@ const getTutorialData = (id: string | undefined) => {
       shadow = "shadow-orange-800";
       text = "text-orange-400";
       break;
-    case "sass":
-      tutorials = [...sassTutorials];
-      name = "Sass";
-      src = require("../assets/techs/sass.png");
-      color = "pink";
-      shadow = "shadow-pink-800";
-      text = "text-pink-400";
-      break;
-    case "css":
+    case str.css:
       tutorials = [...cssTutorials];
       name = "CSS";
       src = require("../assets/techs/css.png");
@@ -44,7 +37,15 @@ const getTutorialData = (id: string | undefined) => {
       shadow = "shadow-blue-800";
       text = "text-blue-400";
       break;
-    case "tailwind":
+    case str.sass:
+      tutorials = [...sassTutorials];
+      name = "Sass";
+      src = require("../assets/techs/sass.png");
+      color = "pink";
+      shadow = "shadow-pink-800";
+      text = "text-pink-400";
+      break;
+    case str.tailwind:
       tutorials = [...tailwind];
       name = "CSS";
       src = require("../assets/techs/tailwind.png");

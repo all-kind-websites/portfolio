@@ -1,3 +1,5 @@
+import str from "./str";
+
 const html = require("../assets/techs/html.png");
 const css = require("../assets/techs/css.png");
 const sass = require("../assets/techs/sass.png");
@@ -17,28 +19,28 @@ const techs = [
   {
     id: 0,
     src: html,
-    link: "html",
+    link: str.html,
     title: "HTML",
     style: "shadow-orange-800",
   },
   {
     id: 1,
     src: css,
-    link: "css",
+    link: str.css,
     title: "CSS",
     style: "shadow-blue-500",
   },
   {
     id: 2,
     src: sass,
-    link: "sass",
+    link: str.sass,
     title: "Sass",
     style: "shadow-pink-400",
   },
   {
     id: 3,
     src: tailwind,
-    link: "tailwind",
+    link: str.tailwind,
     title: "Tailwind",
     style: "shadow-cyan-400",
   },

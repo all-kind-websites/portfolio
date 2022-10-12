@@ -155,3 +155,32 @@ export const javascript = [
     summary: `JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. `,
   },
 ];
+
+export const typescript = [
+  {
+    id: 0,
+    school: "Maximilian Schwarzmüller",
+    courseName: "Understanding TypeScript",
+    src: "https://www.udemy.com/course/understanding-typescript/learn/lecture/16935728?start=0#overview",
+    summary: `This course takes you from the very basics and its most important feature (types!) to the point where you're able to use TypeScript in any of your projects. ReactJS projects included! `,
+    certificate:
+      "https://www.udemy.com/certificate/UC-e510b1b2-1517-4bac-9570-599b8377a5ca/",
+  },
+  {
+    id: 1,
+    school: "Code Evolution",
+    courseName: "Learn TypeScript in 50 Minutes",
+    src: "https://www.youtube.com/watch?v=WBPrJSw7yQA&ab_channel=Codevolution",
+    summary: `In this typescript tutorial for beginners, we go over the fundamental concepts like variable declarations, variable types, functions, interfaces, classes and access modifiers.`,
+  },
+  {
+    id: 2,
+    school: "typescriptlang.org",
+    courseName: "The TypeScript Handbook",
+    src: "https://www.typescriptlang.org/docs/handbook/intro.html",
+    summary: `A reader who completes the walkthrough should be able to:
+    Read and understand commonly-used TypeScript syntax and patterns
+    Explain the effects of important compiler options
+    Correctly predict type system behavior in most cases.`,
+  },
+];

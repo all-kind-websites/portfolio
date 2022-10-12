@@ -5,6 +5,7 @@ import {
   javascript,
   sassTutorials,
   tailwind,
+  typescript,
 } from "../misc/tutorials";
 
 const getTutorialData = (id: string | undefined) => {
@@ -61,6 +62,14 @@ const getTutorialData = (id: string | undefined) => {
       color = "yellow";
       shadow = "shadow-yellow-300";
       text = "text-yellow-300";
+      break;
+    case str.typescript:
+      tutorials = [...typescript];
+      name = "JavaScript";
+      src = require("../assets/techs/typescript.png");
+      color = "blue";
+      shadow = "shadow-blue-400";
+      text = "text-blue-400";
       break;
     default:
       break;

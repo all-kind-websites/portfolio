@@ -54,8 +54,7 @@ const techs = [
   {
     id: 5,
     src: typescript,
-    link: "",
-    // link: "typescript",
+    link: "typescript",
     title: "TypeScript",
     style: "shadow-blue-400",
   },

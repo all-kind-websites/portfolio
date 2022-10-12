@@ -2,10 +2,9 @@ import { FC } from "react"
 interface Props {
   src: any,
   name: string,
-  color: string
-  shadow: string
+  shadow: string,
 }
-const TechLogo: FC<Props> = ({ src, name, color, shadow }) => {
+const TechLogo: FC<Props> = ({ src, name, shadow }) => {
   return (
     <div className={`mt-56 md:mt-0 py-2 rounded-lg w-40 h-40 shadow-lg mb-8 ${shadow}`} >
       <img src={src} alt="html" className=' w-20 mx-auto' />

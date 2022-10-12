@@ -2,6 +2,7 @@ import { str } from "../misc";
 import {
   cssTutorials,
   htmlTutorials,
+  javascript,
   sassTutorials,
   tailwind,
 } from "../misc/tutorials";
@@ -52,6 +53,14 @@ const getTutorialData = (id: string | undefined) => {
       color = "blue";
       shadow = "shadow-cyan-400";
       text = "text-cyan-400";
+      break;
+    case str.javascript:
+      tutorials = [...javascript];
+      name = "JavaScript";
+      src = require("../assets/techs/javascript.png");
+      color = "yellow";
+      shadow = "shadow-yellow-300";
+      text = "text-yellow-300";
       break;
     default:
       break;

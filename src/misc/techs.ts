@@ -47,10 +47,9 @@ const techs = [
   {
     id: 4,
     src: javascript,
-    link: "",
-    // link: "javascript",
+    link: "javascript",
     title: "JavaScript",
-    style: "shadow-blue-400",
+    style: "shadow-yellow-300",
   },
   {
     id: 5,

@@ -83,3 +83,66 @@ export const tailwind = [
     summary: `In this tailwind css tutorial we'll take a look at what tailwind css is, how to use it & set up a new project.`,
   },
 ];
+
+export const javascript = [
+  {
+    id: 0,
+    school: "Anto Aravinth",
+    courseName: "Beginning Functional JavaScript (Book)",
+    src: "https://www.amazon.com/Beginning-Functional-JavaScript-Programming-EcmaScript/dp/1484226550",
+    summary: `Learn functional programming concepts using JavaScript ES6. You will learn concepts such as currying, partial functions, higher-order functions, and monads. Programming languages have evolved from focusing on procedures to objects and now on function. JavaScript supports functional programming and allows developers to write well-crafted code.`,
+  },
+  {
+    id: 1,
+    school: "Douglas Crockford",
+    courseName: "JavaScript, The Good Parts (Book)",
+    src: "https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742",
+    summary: `Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code.`,
+  },
+  {
+    id: 2,
+    school: "J. Resig, B. Bibeault, and J. Maras",
+    courseName: "Secrets of the JavaScript Ninja (Book)",
+    src: "https://www.manning.com/books/secrets-of-the-javascript-ninja-second-edition",
+    summary: `Secrets of the JavaScript Ninja, Second Edition uses practical examples to clearly illustrate each core concept and technique. This completely revised edition shows you how to master key JavaScript concepts such as functions, closures, objects, prototypes, and promises. It covers APIs such as the DOM, events, and timers. `,
+  },
+  {
+    id: 3,
+    school: "Kyle Simpson",
+    courseName: "You Don't Know JS Yet: Scope & Closures (Book)",
+    src: "https://leanpub.com/ydkjsy-scope-closures",
+    summary: `The foundation of all programs is organization of variables/functions into nested scopes. Yet, many never contemplate how & why these decisions are made and the impacts on code maintainability. Scope & Closures examines lexical scope, builds on its principles for the power of closure, and digs into the module pattern for better program structure.`,
+  },
+  {
+    id: 4,
+    school: "freeCodeCamp",
+    courseName: "JavaScript Algorithms and Data Structures",
+    src: "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+    summary: `In the JavaScript Algorithm and Data Structures Certification, you'll learn the fundamentals of JavaScript including variables, arrays, objects, loops, and functions. Once you have the fundamentals down, you'll apply that knowledge by creating algorithms to manipulate strings, factorialize numbers, and even calculate the orbit of the International Space Station.`,
+    certificate:
+      "https://www.freecodecamp.org/certification/footios/javascript-algorithms-and-data-structures",
+  },
+  {
+    id: 5,
+    school: "Maximilian Schwarzmüller (Udemy)",
+    courseName: "Accelerated ES6 JavaScript Training",
+    src: "https://www.udemy.com/course/es6-bootcamp-next-generation-javascript/?utm_source=adwords&utm_medium=udemyads&utm_campaign=WebDevelopment_v.PROF_la.EN_cc.ROWMTA-A_ti.8322&utm_content=deal4584&utm_term=_._ag_77741649963_._ad_533999949985_._kw__._de_c_._dm__._pl__._ti_dsa-774930035449_._li_9067666_._pd__._&matchtype=&gclid=Cj0KCQjwy5maBhDdARIsAMxrkw1tVVFIdWgHL6VQRr87OEhcAXN3hkg6BkgZ8B523qsKuLmvK4eGMegaArrvEALw_wcB",
+    summary: `This course follows a hands-on, example-driven approach to show and explain all the important features added to JavaScript. This includes important syntax changes and additions like let, const, rest & spread operators and continues with Promises, the Reflect API, the Proxy API, Maps & Sets, tons of new methods and functions and much more!`,
+    certificate:
+      "https://www.udemy.com/certificate/UC-f55ddce2-b552-4788-8779-b83f23f3b2cf/",
+  },
+  {
+    id: 6,
+    school: "javascript.info",
+    courseName: "The Modern JavaScript Tutorial",
+    src: "https://javascript.info/",
+    summary: `Main course contains 2 parts which cover JavaScript as a programming language and working with a browser. There are also additional series of thematic articles.`,
+  },
+  {
+    id: 7,
+    school: "MDN",
+    courseName: "JavaScript",
+    src: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    summary: `JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. `,
+  },
+];

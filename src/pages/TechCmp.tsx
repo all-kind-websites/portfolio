@@ -1,6 +1,6 @@
 import { TutorialsCmp } from '../components'
 import { useParams } from 'react-router-dom'
-import { cssTutorials, htmlTutorials, sassTutorials } from '../misc/tutorials'
+import { cssTutorials, htmlTutorials, sassTutorials, tailwind } from '../misc/tutorials'
 
 const TechCmp = () => {
   const params = useParams()
@@ -38,6 +38,14 @@ const TechCmp = () => {
       color = 'blue'
       shadow = 'shadow-blue-800'
       text = 'text-blue-400'
+      break;
+    case 'tailwind':
+      tutorials = [...tailwind]
+      name = 'CSS'
+      src = require('../assets/techs/tailwind.png')
+      color = 'blue'
+      shadow = 'shadow-cyan-400'
+      text = 'text-cyan-400'
       break;
     default:
       break;

@@ -38,8 +38,7 @@ const techs = [
   {
     id: 3,
     src: tailwind,
-    link: "",
-    // link: "tailwind",
+    link: "tailwind",
     title: "Tailwind",
     style: "shadow-cyan-400",
   },

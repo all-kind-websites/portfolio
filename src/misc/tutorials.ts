@@ -66,3 +66,20 @@ export const sassTutorials = [
     summary: `In this course, you will learn the basics of Sass. We will start with a brief overview of what Sass is along with what is required to incorporate Sass into your environment. We will also set up a Sass compiler in Visual Studio Code. You will learn about Sass variables, maps, nesting, functions, mixins, extending, and operations.`,
   },
 ];
+
+export const tailwind = [
+  {
+    id: 0,
+    school: "Programming With Yash",
+    courseName: "Portfolio Using Tailwind",
+    src: "https://www.youtube.com/watch?v=LpZrAjU6Hhk&t=1s&ab_channel=ProgrammingWithYash",
+    summary: ` My take on responsive React portfolio website from scratch using Tailwind CSS and deploying it to server. In this tutorial, we will work with JavaScript, React, and Tailwind. `,
+  },
+  {
+    id: 1,
+    school: "The Net Ninja",
+    courseName: "Tailwind CSS Tutorial",
+    src: "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw",
+    summary: `In this tailwind css tutorial we'll take a look at what tailwind css is, how to use it & set up a new project.`,
+  },
+];

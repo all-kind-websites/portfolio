@@ -27,10 +27,12 @@ export const htmlTutorials = [
 export const cssTutorials = [
   {
     id: 0,
-    school: "MDM",
-    courseName: "CSS Tutorials",
-    src: "https://developer.mozilla.org/en-US/docs/Web/CSS/Tutorials",
-    summary: `Media queries, CSS Animations, CSS Transitions, CSS Transforms, CSS flexible boxes layouts`,
+    school: "freeCodeCamp",
+    courseName: "Legacy Responsive Web Design",
+    src: "https://www.freecodecamp.org/learn/responsive-web-design/",
+    summary: `TFirst, you'll build a cat photo app to learn the basics of HTML and CSS. Later, you'll learn modern techniques like CSS variables by building a penguin, and best practices for accessibility by building a web form. Finally, you'll learn how to make webpages that respond to different screen sizes by building a Twitter card with Flexbox, and a complex blog layout with CSS Grid.`,
+    certificate:
+      "https://www.freecodecamp.org/certification/footios/front-end-development-libraries",
   },
   {
     id: 1,
@@ -47,6 +49,13 @@ export const cssTutorials = [
     summary: `This was a perfectly-structured course packed with exercises, solutions, and a real project. I have learned and understand the what's, why's and how's of HTML and CSS.`,
     certificate:
       "https://html2-f.scribdassets.com/3zlf6y36rk8hs848/images/1-5515c61890.jpg",
+  },
+  {
+    id: 3,
+    school: "MDM",
+    courseName: "CSS Tutorials",
+    src: "https://developer.mozilla.org/en-US/docs/Web/CSS/Tutorials",
+    summary: `Media queries, CSS Animations, CSS Transitions, CSS Transforms, CSS flexible boxes layouts`,
   },
 ];
 

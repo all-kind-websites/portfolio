@@ -61,10 +61,9 @@ const techs = [
   {
     id: 6,
     src: reactImg,
-    link: "",
-    // link: "react",
+    link: "react",
     title: "React (N)",
-    style: "shadow-blue-600",
+    style: "shadow-cyan-600",
   },
   {
     id: 7,

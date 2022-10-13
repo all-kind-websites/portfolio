@@ -197,3 +197,94 @@ export const typescript = [
     Correctly predict type system behavior in most cases.`,
   },
 ];
+
+export const react = [
+  {
+    id: 0,
+    school: "Maximilian Schwarzmüller",
+    courseName: "React - The Complete Guide",
+    src: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+    summary: `Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more! `,
+    certificate: "https://www.udemy.com/certificate/UC-OFS6RM1N/",
+  },
+  {
+    id: 1,
+    school: "Reed Barger",
+    courseName: "Hacker News Clone",
+    src: "https://www.udemy.com/course/draft/2365180/",
+    summary: `Throughout this course, we'll be building a live chat app for developers called DevChat, where users will be able to create channels, to send messages to other users on those channels, send media files, see when other users are typing, add emojis to their messages, favorite and unfavorite channels they like or dislike, and get notifications about new messages on other channels.`,
+    certificate:
+      "https://udemy-certificate.s3.amazonaws.com/image/UC-1cee0f9a-8e3f-44a3-96aa-9cac7148d23b.jpg",
+  },
+  {
+    id: 2,
+    school: "Reed Barger",
+    courseName: "Build a Slack Chat",
+    src: "https://www.udemy.com/course/draft/1806572/",
+    summary: `Throughout this course, we'll be building a live chat app for developers called DevChat, where users will be able to create channels, to send messages to other users on those channels, send media files, see when other users are typing, add emojis to their messages, favorite and unfavorite channels they like or dislike, and get notifications about new messages on other channels.`,
+    certificate:
+      "https://www.udemy.com/certificate/UC-5cd6d915-03d0-485c-b6d0-047fac442c77/",
+  },
+  {
+    id: 4,
+    school: "freeCodeCamp",
+    courseName: "Front End Development Libraries",
+    src: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+    summary: `In the Front End Development Libraries Certification, you'll learn how to style your site quickly with Bootstrap. You'll also learn how add logic to your CSS styles and extend them with Sass. Later, you'll build a shopping cart and other applications to learn how to create powerful Single Page Applications (SPAs) with React and Redux.`,
+    certificate:
+      "https://www.freecodecamp.org/certification/footios/front-end-development-libraries",
+  },
+  {
+    id: 5,
+    school: "Code with Mosh",
+    courseName: "Mastering React",
+    src: "https://codewithmosh.com/p/mastering-react",
+    summary: `Highly technical with a perfect mix of theory and practice. It covers absolutely every detail you could possibly need to take you from beginner React developer to an expert.`,
+    certificate:
+      "https://html2-f.scribdassets.com/6d4hi2af288kkpbj/images/1-f1c5edcf81.jpg",
+  },
+  {
+    id: 6,
+    school: "Maximilian Schwarzmüller",
+    courseName: "React Native - The Practical Guide",
+    src: "https://www.udemy.com/course/react-native-the-practical-guide/",
+    summary: `You'll learn all about the theory behind React Native, its core concepts, how to build responsive designs that work on different device sizes, how to navigate around, use maps and the camera and so much more!    .`,
+    certificate: "https://www.udemy.com/certificate/UC-2J8PFHYP/",
+  },
+  {
+    id: 7,
+    school: "Jason Brown",
+    courseName: "Master React Native Animations ",
+    src: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+    summary: `In this course we'll start by walking through all of the functions and animation types that you can leverage with React Native.
+    We'll step it up to some advanced topics live interpolating colors, rotations, using extrapolate, .99 cliffs, interrupted animations and many more concepts.
+    After that we'll learn how Animated actually works and rebuild some custom animations using d3-interpolate and other libraries to animate SVG paths. Finally we get to the real world. We'll use our new found knowledge of Animated to breakdown animations into their pieces, and then rebuild them with the Animated library.`,
+    certificate:
+      "https://www.udemy.com/certificate/UC-c17787c2-ff4a-4146-aebc-25d9eabc2a7b/",
+  },
+  {
+    id: 8,
+    school: "Code with Mosh",
+    courseName: "The Ultimate React Native Series",
+    src: "https://codewithmosh.com/p/the-ultimate-react-native-course",
+    summary: `This course teaches you everything you need to build real apps with React Native from scratch. No fluff, no lengthy, repetitive explanations to waste your time. This course is divided into two parts: basics and advanced topics. Each part is about 5 hours long so you can easily complete it.`,
+    certificate:
+      "https://html1-f.scribdassets.com/7zaxai4fwg8kkpks/images/1-fd322c7848.jpg",
+  },
+  {
+    id: 8,
+    school: "William Candilon",
+    courseName: "Start React Native",
+    src: "https://start-react-native.dev/",
+    summary: `Build Delightful
+    Gestures and Animations
+    Learn React Native Gesture Handler and Reanimated to build user experiences that run at 60 fps, even on low-end devices.`,
+  },
+  {
+    id: 9,
+    school: "Reactiive",
+    courseName: "Animate with Reanimated 2",
+    src: "https://www.youtube.com/watch?v=yz9E10Dq8Bg&list=PLjHsmVtnAr9TWoMAh-3QMiP7bPUqPFuFZ",
+    summary: `YouTube series where we learn Reanimated 2, by building small projects.`,
+  },
+];

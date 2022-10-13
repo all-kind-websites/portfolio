@@ -3,6 +3,7 @@ import {
   cssTutorials,
   htmlTutorials,
   javascript,
+  react,
   sassTutorials,
   tailwind,
   typescript,
@@ -70,6 +71,14 @@ const getTutorialData = (id: string | undefined) => {
       color = "blue";
       shadow = "shadow-blue-400";
       text = "text-blue-400";
+      break;
+    case str.react:
+      tutorials = [...react];
+      name = "React (N)";
+      src = require("../assets/techs/react.png");
+      color = "blue";
+      shadow = "shadow-cyan-600";
+      text = "text-cyan-600";
       break;
     default:
       break;

@@ -1,11 +1,18 @@
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import { Link } from 'react-router-dom';
+
+import { motion } from 'framer-motion'
+
 const heroImg = require('../assets/heroImage.jpeg');
 
 const Home = () => {
   return (
-    <section
+    <motion.section
       className='h-screen w-full bg-gradient-to-b from-black via-sky-800 to-gray-800 '
+      initial={{ scaleY: 0, opacity: 0 }}
+      animate={{ scaleY: 1, opacity: 1 }}
+      exit={{ scaleY: 0, opacity: 0 }}
+      transition={{ duration: .5 }}
     >
       <div
         className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'
@@ -53,7 +60,7 @@ const Home = () => {
           />
         </div>
       </div>
-    </section>
+    </motion.section>
   )
 }
 

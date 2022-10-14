@@ -1,8 +1,13 @@
 import React from 'react'
-
+import { motion } from 'framer-motion'
 const About = () => {
   return (
-    <section className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white '>
+    <motion.section className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white '
+      initial={{ scaleY: 0, opacity: 0 }}
+      animate={{ scaleY: 1, opacity: 1 }}
+      exit={{ scaleY: 0, opacity: 0 }}
+      transition={{ duration: .5 }}
+    >
       <div className=' max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ' >
         <div className='pb-8 mt-2' >
           <p className='text-4xl font-bold inline  border-b-4 border-gray-500 ' >About</p>
@@ -17,7 +22,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </section>
+    </motion.section >
   )
 }
 

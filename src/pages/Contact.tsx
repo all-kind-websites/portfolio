@@ -1,8 +1,13 @@
+import { motion } from 'framer-motion'
 
 const Contact = () => {
   return (
-    <section
+    <motion.section
       className=' w-full h-screen bg-gradient-to-b from-black to-gray-500 py-8 text-white'
+      initial={{ scaleY: 0, opacity: 0 }}
+      animate={{ scaleY: 1, opacity: 1 }}
+      exit={{ scaleY: 0, opacity: 0 }}
+      transition={{ duration: .5 }}
     >
       <div
         className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'
@@ -42,7 +47,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </section>
+    </motion.section>
   )
 }
 

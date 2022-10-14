@@ -1,12 +1,16 @@
 import { Link } from 'react-router-dom'
 import { projects } from '../misc'
-
+import { motion } from 'framer-motion'
 
 const Projects = () => {
 
   return (
-    <section
+    <motion.section
       className=' bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen overflow-auto'
+      initial={{ scaleY: 0, opacity: 0 }}
+      animate={{ scaleY: 1, opacity: 1 }}
+      exit={{ scaleY: 0, opacity: 0 }}
+      transition={{ duration: .5 }}
     >
       <div
         className=' max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'
@@ -76,7 +80,7 @@ const Projects = () => {
           }
         </div>
       </div>
-    </section>
+    </motion.section>
   )
 }
 

@@ -1,11 +1,17 @@
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
+
 import { techs } from '../misc'
 
 const Techs = () => {
 
   return (
-    <section
+    <motion.section
       className=' bg-gradient-to-b from-gray-800 to-black w-full h-screen overflow-hidden'
+      initial={{ scaleY: 0, opacity: 0 }}
+      animate={{ scaleY: 1, opacity: 1 }}
+      exit={{ scaleY: 0, opacity: 0 }}
+      transition={{ duration: .5 }}
     >
       <div
         className=' max-w-screen-lg mx-auto p-14 flex flex-col justify-center w-full text-white'
@@ -42,7 +48,7 @@ const Techs = () => {
 
         </div>
       </div>
-    </section>
+    </motion.section>
   )
 }
 

@@ -1,29 +1,15 @@
-import { Routes, Route } from 'react-router-dom';
+import { AnimatedRoutes, NavBar, Sidebar, SocialLinks } from './components';
 
-import { NavBar, Sidebar, SocialLinks } from './components';
-import { About, Contact, Techs, Home, Projects, EnToutoNika, PageNotFound, TechCmp, } from './pages';
 import './index.css';
 
 
 function App() {
+
   return (
-    <div>
+    <div className='h-screen w-full bg-gradient-to-b from-black via-sky-800 to-gray-800 ' >
       <NavBar />
       <Sidebar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='about' element={<About />} />
-
-        <Route path='projects' element={<Projects />} />
-        <Route path='projects/entoutonika' element={<EnToutoNika />} />
-
-        <Route path='techs' element={<Techs />} />
-        <Route path='techs/:id' element={<TechCmp />} />
-
-        <Route path='contact' element={<Contact />} />
-        <Route path='*' element={<PageNotFound />} />
-
-      </Routes>
+      <AnimatedRoutes />
       <SocialLinks />
     </div>
   )
